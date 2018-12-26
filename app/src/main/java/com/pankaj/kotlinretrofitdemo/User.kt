@@ -17,8 +17,8 @@
 package com.pankaj.kotlinretrofitdemo
 
 data class User(
-        val userId: Int,
-        val id: Int,
-        val title: String,
-        val completed: String
+        val name: String,
+        val email: String,
+        val github_profile: String,
+        val linkedin_profile: String
 )

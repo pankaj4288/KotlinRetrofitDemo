@@ -2,7 +2,7 @@
 
 ## Sample API used
 ```
-https://jsonplaceholder.typicode.com/todos/1
+https://api.myjson.com/bins/pelck
 ```
 
 ## License

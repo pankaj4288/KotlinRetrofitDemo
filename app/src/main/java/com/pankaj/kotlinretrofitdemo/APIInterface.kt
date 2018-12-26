@@ -24,7 +24,7 @@ import retrofit2.http.GET
 
 interface APIInterface {
 
-    @GET("todos/1")
+    @GET("bins/pelck")
     fun getDetails(): Observable<User>
 
     companion object {
@@ -35,7 +35,7 @@ interface APIInterface {
                             RxJava2CallAdapterFactory.create())
                     .addConverterFactory(
                             GsonConverterFactory.create())
-                    .baseUrl("https://jsonplaceholder.typicode.com/")
+                    .baseUrl("https://api.myjson.com/")
                     .build()
 
             return retrofit.create(APIInterface::class.java)

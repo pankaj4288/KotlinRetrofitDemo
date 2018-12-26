@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showResult(result: User?) {
-        result_tv.text = result.toString()
+        result_tv.text = result!!.name + "\n" + result.email + "\n" + result.github_profile + "\n" + result.linkedin_profile
     }
 
     override fun onPause() {
